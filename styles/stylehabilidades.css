@@ -1,0 +1,38 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #1a1a1d;
+    color: #fff;
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+    background-color: #d62828;
+}
+.header-img {
+    width: 30%;
+    max-height: 300px;
+    object-fit: cover;
+}
+
+@media (max-width: 768px) {
+    body{
+        font-family: 'Arial', sans-serif;
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        background-color: #1a1a1d;
+        color: #fff;
+        display: flex;
+        flex-direction: column;
+    }
+    header {
+        text-align: center;
+        padding: 20px;
+        background-color: #d62828;
+    }
+
+}
