@@ -1,5 +1,8 @@
-@import 'routes/_dariushistoria';
-@import 'routes/_habilidades';
-@import 'routes/_profundidad';
-@import 'routes/_estructurafacial';
-@import 'routes/_index';
+@import '/routes/_dariushistoria';
+@import '/routes/_habilidades';
+@import '/routes/_profundidad';
+@import '/routes/_estructurafacial';
+@import '/routes/_index';
+*{
+    border: 1px solid red;
+}

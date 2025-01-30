@@ -1,0 +1,117 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #1a1a1d;
+    color: #fff;
+}
+.titulo{
+    animation: logo 3s infinite linear;
+
+    @keyframes logo {
+        0%   {background-color: rgb(83, 3, 99);}
+        25%  {background-color: rgb(255, 252, 0);}
+        50%  {background-color: rgb(145, 12, 138);}
+        100% {background-color: rgb(83, 3, 99);}
+      }
+}
+header {
+    text-align: center;
+    padding: 20px;
+    background-color: #d62828;
+}
+
+.header-img {
+    width: 30%;
+    max-height: 300px;
+    object-fit: cover;
+}
+
+.main-content {
+    padding: 20px;
+}
+
+.info, .skills {
+    margin-bottom: 20px;
+}
+
+.skills ul {
+    list-style: none;
+    padding: 0;
+}
+
+.skills li {
+    background-color: #2a2a2a;
+    margin: 10px 0;
+    padding: 10px;
+    border-left: 5px solid #d62828;
+}
+
+.habilidades {
+    body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #1a1a1d;
+    color: #fff;
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+    background-color: #d62828;
+}
+.header-img {
+    width: 30%;
+    max-height: 300px;
+    object-fit: cover;
+}
+.header-img-profundidad{
+   display: flex;
+   width: 30%;
+    justify-content: center;
+}
+.div-img{
+    display: flex;
+    justify-content: center;
+}
+@media (max-width: 768px) {
+    body{
+        font-family: 'Arial', sans-serif;
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        background-color: #1a1a1d;
+        color: #fff;
+        display: flex;
+        flex-direction: column;
+    }
+    header {
+        text-align: center;
+        padding: 20px;
+        background-color: #d62828;
+    }
+
+}
+
+}
+@media (max-width: 768px) {
+    body{
+        font-family: 'Arial', sans-serif;
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        background-color: #1a1a1d;
+        color: #fff;
+        display: flex;
+        flex-direction: column;
+    }
+    header {
+        text-align: center;
+        padding: 20px;
+        background-color: #d62828;
+    }
+
+}
