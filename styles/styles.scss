@@ -12,7 +12,11 @@ body {
     @keyframes logo {
         0%   {background-color: rgb(83, 3, 99);}
         25%  {background-color: rgb(255, 252, 0);}
+        30%  {background-color: rgb(255, 145, 0);}
         50%  {background-color: rgb(145, 12, 138);}
+        60% {background-color: rgb(255, 255, 255);}
+        75%  {background-color: rgb(255, 0, 0);}
+        90%  {background-color: rgb(0, 255, 255);}
         100% {background-color: rgb(83, 3, 99);}
       }
 }
