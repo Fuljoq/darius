@@ -3,6 +3,9 @@
 @import '/routes/_profundidad';
 @import '/routes/_estructurafacial';
 @import '/routes/_index';
+@import '/routes_header';
+@import '/routes_footer';
+@import '/routes_nav';
 *{
     border: 1px solid red;
 }

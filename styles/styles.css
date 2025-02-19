@@ -1,8 +1,11 @@
-body {
-  font-family: "Arial", sans-serif;
+* {
+  box-sizing: border-box;
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
+}
+
+body {
+  font-family: "Arial", sans-serif;
   background-color: #1a1a1d;
   color: #fff;
 }
@@ -10,31 +13,13 @@ body {
 .titulo {
   animation: logo 3s infinite linear;
 }
+
 @keyframes logo {
-  0% {
-    background-color: rgb(83, 3, 99);
-  }
-  25% {
-    background-color: rgb(255, 252, 0);
-  }
-  30% {
-    background-color: rgb(255, 145, 0);
-  }
-  50% {
-    background-color: rgb(145, 12, 138);
-  }
-  60% {
-    background-color: rgb(255, 255, 255);
-  }
-  75% {
-    background-color: rgb(255, 0, 0);
-  }
-  90% {
-    background-color: rgb(0, 255, 255);
-  }
-  100% {
-    background-color: rgb(83, 3, 99);
-  }
+  0% { background-color: rgb(83, 3, 99); }
+  25% { background-color: rgb(255, 252, 0); }
+  50% { background-color: rgb(145, 12, 138); }
+  75% { background-color: rgb(255, 0, 0); }
+  100% { background-color: rgb(83, 3, 99); }
 }
 
 header {
@@ -69,67 +54,41 @@ header {
   border-left: 5px solid #d62828;
 }
 
-.habilidades body {
-  font-family: "Arial", sans-serif;
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  background-color: #1a1a1d;
-  color: #fff;
-}
-.habilidades header {
+.habilidades {
   text-align: center;
-  padding: 20px;
-  background-color: #d62828;
 }
+
 .habilidades .header-img {
   width: 30%;
   max-height: 300px;
   object-fit: cover;
 }
+
 .habilidades .header-img-profundidad {
   display: flex;
   width: 30%;
   justify-content: center;
 }
+
 .habilidades .div-img {
   display: flex;
   justify-content: center;
-}
-@media (max-width: 768px) {
-  .habilidades body {
-    font-family: "Arial", sans-serif;
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    background-color: #1a1a1d;
-    color: #fff;
-    display: flex;
-    flex-direction: column;
-  }
-  .habilidades header {
-    text-align: center;
-    padding: 20px;
-    background-color: #d62828;
-  }
 }
 
 @media (max-width: 768px) {
   body {
     font-family: "Arial", sans-serif;
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
     background-color: #1a1a1d;
     color: #fff;
+  }
+
+  header {
+    padding: 15px;
+    background-color: #d62828;
+  }
+
+  .habilidades {
     display: flex;
     flex-direction: column;
   }
-  header {
-    text-align: center;
-    padding: 20px;
-    background-color: #d62828;
-  }
 }
-
-/*# sourceMappingURL=styles.css.map */
